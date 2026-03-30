@@ -287,74 +287,57 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
-/* --- AI OVERSIGHT HEADER REPAIR --- */
+/* --- AI Ethics Blog Custom Fixes --- */
 
-.masthead {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  float: none !important;
-  width: 100% !important;
-  padding: 25px 0 !important;
-  border-bottom: 1px solid #eee !important;
+/* 1. Import Merriweather Font */
+@import url('https://fonts.googleapis.com');
+
+/* 2. Apply Merriweather to the whole site */
+body {
+  font-family: 'Merriweather', serif !important;
+}
+
+/* 3. Fix Header Overlap */
+header {
+  display: flex;
+  flex-direction: column; /* Stacks Title, Description, and Nav vertically */
+  align-items: flex-start;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
 }
 
 .site-info {
-  display: flex !important;
-  align-items: center !important;
-  float: none !important;
-  width: auto !important; /* Prevents text from being squished */
-}
-
-.site-avatar {
-  display: block !important;
-  margin-right: 20px !important;
-  float: none !important;
-}
-
-.site-avatar img {
-  width: 110px !important; /* Enlarged profile picture */
-  height: auto !important;
-  display: block !important;
-  border-radius: 4px;
+  float: none !important; /* Removes the float that causes the overlap */
+  width: 100%;
 }
 
 .site-name {
-  margin: 0 !important;
-  padding-right: 20px !important;
-  border-right: 1px solid #ddd !important; /* The vertical divider */
-  line-height: 1 !important;
-  float: none !important;
-  font-size: 2.4rem !important;
-  white-space: nowrap !important;
+  font-size: 32px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 5px;
 }
 
 .site-description {
-  margin: 0 !important;
-  padding-left: 20px !important;
-  line-height: 1.2 !important;
-  float: none !important;
-  font-size: 1rem !important;
-  color: #666 !important;
-  max-width: 350px;
+  font-size: 16px;
+  color: #666;
+  display: block;
+  margin-bottom: 15px;
+  max-width: 600px; /* Prevents description from stretching too wide */
+  line-height: 1.5;
 }
 
+/* 4. Fix Navigation Menu */
 nav {
-  display: flex !important; /* Forces Blog and About to be side-by-side */
-  gap: 25px !important;
   float: none !important;
-  margin: 0 !important;
+  display: flex;
+  gap: 20px; /* Space between Blog and About */
 }
 
 nav a {
-  margin: 0 !important;
-  font-weight: 600 !important;
-  font-size: 1.1rem !important;
-  text-decoration: none !important;
-  color: #333 !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 
-/* Removes legacy theme clear-fixes that interfere with flex */
-.clearfix::after {
-  display: none !important;
-}
