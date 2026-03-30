@@ -83,6 +83,7 @@ gems:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude these files from your production _site
 exclude:
