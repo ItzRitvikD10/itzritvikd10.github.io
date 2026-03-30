@@ -157,6 +157,9 @@ img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   @include mobile {
     text-align: center;
@@ -166,8 +169,9 @@ img {
 .site-avatar {
   float: left;
   width: 130px;
-  height: 130px;
+  height: auto;
   margin-right: 10px;
+  display: block;
 
   @include mobile {
     float: none;
@@ -192,6 +196,7 @@ img {
 
 .site-name {
   margin: 0;
+  line-height: 1.1;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
@@ -202,6 +207,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
+  opacity: 0.8;
   color: $gray;
   font-size: 16px;
 
