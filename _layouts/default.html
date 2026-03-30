@@ -19,10 +19,16 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar | relative_url }}" alt="Profile Picture">
-
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <a href="{{ site.baseurl }}/" class="site-avatar">
+              <img src="{{ site.avatar | relative_url }}" alt="Profile Picture">
+            <a>
+
+          <!-- The Title-->
+            <h1 class="site-name">
+              <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+            </h1>
+           <!-- The Description (keep out of h1) -->
             <p class="site-description">{{ site.description }}</p>
           </div>
 
