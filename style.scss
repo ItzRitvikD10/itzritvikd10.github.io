@@ -335,11 +335,11 @@ h1, h2, h3, h4, .post-title, .site-avatar-name {
 /* 2. MAKE THE PIC BIG AND GIVE IT A RIGHT MARGIN */
 .profile-nav {
   border-radius: 50% !important;
-  width: 90px !important;
-  height: 90px !important;
-  min-width: 90px !important; /* Prevents it from getting squished */
+  width: 200px !important;
+  height: 200px !important;
+  min-width: 200px !important; /* Prevents it from getting squished */
   object-fit: cover !important;
-  margin-right: 25px !important; /* This creates the gap you need */
+  margin-right: 20px !important; /* This creates the gap you need */
   border: 3px solid #3182ce !important;
 }
 
@@ -364,7 +364,7 @@ h1, h2, h3, h4, .post-title, .site-avatar-name {
 }
 
 /* 5. FIX THE NAVIGATION OVERLAP */
-header nav {
+.header-nav {
   margin-top: 0 !important;
   float: right !important;
   text-align: right !important;
