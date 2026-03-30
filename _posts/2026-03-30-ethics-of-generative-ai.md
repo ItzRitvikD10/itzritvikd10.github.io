@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "The Admission Machine: Can an Algorithm Hear My Voice?"
+description: "An analysis of AI's growing role in college admissions and the ethical risks of algorithmic bias."
+author: "Ritvik Diada"
 ---
 
 Last night, as I was proofreading an essay for a summer program, I caught myself wondering who—or what—would actually be on the other side of the "Submit" button. We talk a lot about AI in the classroom, but we rarely talk about the "Admission Machine." In the race to process tens of thousands of applications, many institutions are turning to Large Language Models (LLMs) to scan for sentiment, keywords, and "fit."
