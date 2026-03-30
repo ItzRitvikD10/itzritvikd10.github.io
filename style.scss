@@ -287,93 +287,74 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+/* --- AI OVERSIGHT HEADER REPAIR --- */
 
-/* Custom Header Overrides for AI Oversight */
 .masthead {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 0;
-  border-bottom: 1px solid #e5e5e5;
-  float: none;
-  width: 100%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  float: none !important;
+  width: 100% !important;
+  padding: 25px 0 !important;
+  border-bottom: 1px solid #eee !important;
 }
 
 .site-info {
-  display: flex;
-  align-items: center;
-  float: none;
+  display: flex !important;
+  align-items: center !important;
+  float: none !important;
+  width: auto !important; /* Prevents text from being squished */
 }
 
 .site-avatar {
-  float: none;
-  margin: 0 25px 0 0;
-  display: flex;
+  display: block !important;
+  margin-right: 20px !important;
+  float: none !important;
 }
 
 .site-avatar img {
-  width: 100px; 
-  height: auto;
+  width: 110px !important; /* Enlarged profile picture */
+  height: auto !important;
+  display: block !important;
   border-radius: 4px;
 }
 
 .site-name {
-  margin: 0;
-  padding-right: 20px;
-  border-right: 1px solid #ddd;
-  font-size: 2.6rem;
-  line-height: 1;
-}
-
-.site-name a {
-  color: #111;
-  text-decoration: none;
+  margin: 0 !important;
+  padding-right: 20px !important;
+  border-right: 1px solid #ddd !important; /* The vertical divider */
+  line-height: 1 !important;
+  float: none !important;
+  font-size: 2.4rem !important;
+  white-space: nowrap !important;
 }
 
 .site-description {
-  margin: 0;
-  padding-left: 20px;
-  font-size: 1.05rem;
-  color: #777;
-  line-height: 1.3;
-  max-width: 320px;
+  margin: 0 !important;
+  padding-left: 20px !important;
+  line-height: 1.2 !important;
+  float: none !important;
+  font-size: 1rem !important;
+  color: #666 !important;
+  max-width: 350px;
 }
 
 nav {
-  float: none;
-  display: flex;
-  gap: 20px;
-  margin: 0;
+  display: flex !important; /* Forces Blog and About to be side-by-side */
+  gap: 25px !important;
+  float: none !important;
+  margin: 0 !important;
 }
 
 nav a {
-  margin: 0;
-  font-size: 1.2rem;
-  color: #333;
-  text-decoration: none;
-  font-weight: 500;
+  margin: 0 !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  text-decoration: none !important;
+  color: #333 !important;
 }
 
-/* Ensure proper layout on smaller screens */
-@media screen and (max-width: 768px) {
-  .masthead {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .site-info {
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-  .site-avatar {
-    margin: 0 0 15px 0;
-  }
-  .site-name {
-    border-right: none;
-    padding-right: 0;
-    margin-bottom: 5px;
-  }
-  .site-description {
-    padding-left: 0;
-  }
+/* Removes legacy theme clear-fixes that interfere with flex */
+.clearfix::after {
+  display: none !important;
 }
