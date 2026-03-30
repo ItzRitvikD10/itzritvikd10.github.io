@@ -12,74 +12,6 @@
 /**************/
 /* BASE RULES */
 /**************/
-@import url('https://fonts.googleapis.com');
-
-body {
-  font-family: 'Open Sans', sans-serif; /* Clean for UI */
-  background-color: #fcfcfc;
-  color: #1a202c;
-}
-
-h1, h2, h3, .post-content {
-  font-family: 'Merriweather', serif; /* Authoritative for reading */
-}
-
-/* Changes the color of all links */
-a {
-  color: #2b6cb0;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-/* Changes the color when you hover over a link */
-a:hover {
-  color: #1a202c;
-  text-decoration: underline;
-}
-
-.site-header {
-  border-top: 5px solid #3182ce;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.post-link {
-  color: #2d3748;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.reading-time {
-	color: #a0aec0;
-	text-decoration: none;
-	transition: color 0.2s;
-}
-	
-
-/* Make the blog text readable and professional */
-article {
-  max-width: 700px;
-  margin: 0 auto;
-  line-height: 1.8;
-  font-size: 1.1rem;
-}
-
-/* Round the profile image in the corner */
-.profile-nav {
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  vertical-align: middle;
-  margin-right: 10px;
-}
-
-.reading-time {
-  font-size: 0.9rem;
-  color: #666; /* A subtle gray */
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-left: 10px;
-}
 
 html {
   font-size: 100%;
@@ -355,3 +287,65 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+// --- AI OVERSIGHT CUSTOM UPDATES ---
+
+// 1. IMPORT ACADEMIC FONTS
+@import url('https://fonts.googleapis.com');
+
+// 2. DEFINE THE OVERSIGHT COLOR PALETTE
+$bg-color: #fcfcfc;
+$text-color: #1a202c;     
+$link-color: #2b6cb0;     
+$accent-blue: #3182ce;    
+$light-gray: #a0aec0;     
+
+// 3. OVERRIDE GLOBAL STYLES
+body {
+  background-color: $bg-color !important;
+  color: $text-color !important;
+  font-family: 'Open Sans', sans-serif !important;
+  border-top: 5px solid $accent-blue; 
+}
+
+// 4. ACADEMIC TYPOGRAPHY (POSTS & HEADERS)
+h1, h2, h3, h4, .post-title, .site-avatar-name {
+  font-family: 'Merriweather', serif !important;
+  color: $text-color !important;
+}
+
+.post-content {
+  font-family: 'Merriweather', serif !important;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+// 5. PROFILE PICTURE STYLING
+// Use class="profile-nav" in your HTML to trigger this
+.profile-nav {
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 12px;
+  border: 2px solid $accent-blue;
+}
+
+// 6. READING TIME TAG
+.reading-time {
+  font-size: 0.8rem;
+  color: $light-gray;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+// 7. CLEANER LINKS
+a {
+  color: $link-color;
+  &:hover {
+    color: $text-color;
+  }
+}
