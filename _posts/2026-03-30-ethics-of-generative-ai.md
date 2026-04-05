@@ -22,3 +22,12 @@ Research from the [Harvard Graduate School of Education](https://mcc.gse.harvard
 I believe AI belongs in the back office for tasks like sorting transcripts or verifying data. But it should never be the final judge of someone's character. The "slowness" of a human reading an essay isn't actually a flaw. That slowness is where empathy lives. It is where a reader notices the potential in a student who might not have the highest test scores but has a perspective the world needs.
 
 The future of admissions shouldn't be about choosing between efficiency and ethics. It should be about using these tools to expand access while ensuring that no student’s story is reduced to a statistical probability.
+
+---
+
+### Works Cited and Further Reading
+
+* **The White House Office of Science and Technology Policy (2022).** *Blueprint for an AI Bill of Rights: Making Automated Systems Work for the American People.* [Read the blueprint](https://www.whitehouse.gov/ostp/ai-bill-of-rights/)
+* **Making Caring Common Project (2016).** *Turning the Tide: Inspiring Concern for Others and the Common Good through College Admissions.* Harvard Graduate School of Education. [Explore the initiative](https://mcc.gse.harvard.edu/reports/turning-the-tide-college-admissions)
+* **Khosla, S., & Tandon, R. (2022).** *Artificial Intelligence in Higher Education Admissions: A Review of Ethical Concerns.* Journal of Educational Technology Systems. 
+* **MIT Technology Review (2023).** *The murky ethics of using AI to write—and read—college essays.* [Read more](https://www.technologyreview.com)
