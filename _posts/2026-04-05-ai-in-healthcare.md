@@ -4,26 +4,28 @@ Date: 2026-04-05
 Author: "Ritvik Diada"
 ---
 
-Imagine a doctor looking at a grainy X-ray. They’ve been on their feet for twelve hours, and they’re tired. Now, imagine a computer program looking at that same X-ray. It doesn't get tired, it doesn't need coffee, and it has "memorized" millions of other scans. 
+When my doctor looks at an X-ray after a long shift, they are fighting natural human fatigue. When an AI looks at that same scan, it is processing pixels against a database of millions. On paper, the machine wins every time; it is faster, cheaper, and it never needs a coffee break. But as I’ve been researching for this blog, I’ve realized that "faster" doesn't always mean "fairer." If we aren't careful, we aren't just digitizing medicine—we're digitizing our own human prejudices.
 
-AI in healthcare is no longer science fiction—it's becoming a standard tool for saving lives. But as we hand more responsibility to machines, we have to ask: **Is the AI treating the patient, or just the data?**
+### The Speed of Light and Faster Diagnosis
 
-### The Speed of Light: Faster Diagnosis
+There is no denying that AI is a powerhouse for early detection. In 2023, researchers developed models that could identify breast cancer signs years before they appeared to a human radiologist. For a patient, those extra years are everything. This is possible because AI can spot "micro-patterns" in blood work or imaging that are literally invisible to the human eye. 
 
-The biggest "pro" for AI is its ability to spot patterns. In fields like radiology and dermatology, AI can identify early-stage cancer or heart disease much faster than a human eye. 
+Beyond just finding disease, these tools offer a path toward democratic access to care. According to a report by the [World Health Organization](https://www.who.int/news/item/28-06-2021-who-issues-first-global-report-on-ai-in-health-and-six-guiding-principles-for-its-design-and-use), AI has the potential to bring specialist-level diagnostic tools to rural areas that currently lack enough doctors to serve the population.
 
-* **Early Detection:** By catching a disease in "Stage 0," AI gives doctors a massive head start on treatment.
-* **Global Reach:** In areas where there aren't enough specialists, a smartphone app powered by AI can help a local nurse identify a skin condition that might otherwise go untreated.
+### The Data Desert and When AI Gets It Wrong
 
-### The "Background" Problem: When AI Gets It Wrong
+The part that actually keeps me up at night is the reality that an AI is simply a mirror of the data we feed it. If that data is skewed, the "cure" becomes a new kind of symptom. For instance, a famous study published in *The Lancet Digital Health* pointed out that most AI models for skin cancer were trained on predominantly light-skinned populations. For someone with a darker complexion, the AI might miss a life-threatening lesion simply because it wasn't taught what to look for.
 
-The "con" is much more subtle and dangerous. An AI is only as smart as the data we give it. If an AI is trained mostly on data from one group of people—for example, patients from a specific ethnic background or a high-income zip code—it might give wrong advice to everyone else.
+This bias isn't always visual; it can be financial, too. Some hospital algorithms used "total healthcare spending" as a proxy for how sick a person was. Because lower-income families often spend less on doctors due to cost, the AI mistakenly assumed they were healthier than they actually were, bumping them lower on the priority list for life-saving care.
 
-* **The Skin Tone Gap:** Some AI tools for detecting skin cancer were trained primarily on lighter skin. As a result, they are often less accurate for patients with darker skin tones, leading to delayed diagnoses.
-* **Financial Bias:** Some hospital algorithms used "past healthcare spending" to predict who needed the most help. Because lower-income patients often spend less on healthcare (even if they are sicker), the AI mistakenly "thought" they were healthier than they actually were.
+### A Tool Rather Than a Replacement
 
-### Conclusion: A Tool, Not a Replacement
+I don't think we should stop using AI in hospitals (that would be like throwing away a microscope because it's hard to focus). Instead, we need **oversight**. We need doctors who treat the AI as a "second opinion" rather than the final word. To build an ethical future, we must ensure our datasets include everyone—not just the groups that are the easiest to track. We cannot let the pursuit of efficiency lead us into a "data desert" where the most vulnerable patients are left behind.
 
-The goal isn't to replace doctors with robots. The goal is to create a partnership. Doctors provide the empathy, context, and moral judgment that a machine lacks. AI provides the raw processing power to find the "needle in the haystack."
+---
 
-For the next generation of medical tech to be ethical, we have to make sure the data we use represents **everyone**, not just the majority. We can’t let "efficiency" come at the cost of "equality."
+### Works Cited and Further Reading
+
+* **World Health Organization (2021).** *Ethics and governance of artificial intelligence for health.* [Read the report](https://www.who.int/publications/i/item/9789240029200)
+* **The Lancet Digital Health (2022).** *The importance of diversity in datasets for AI dermatology.* [Read the study](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00155-2/fulltext)
+* **Obermeyer, Z., et al. (2019).** *Dissecting racial bias in an algorithm used to manage the health of populations.* [Science Magazine](https://www.science.org/doi/10.1126/science.aax2342)
