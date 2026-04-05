@@ -4,7 +4,7 @@ Date: 2026-04-05
 Author: "Ritvik Diada"
 ---
 
-When my doctor looks at an X-ray after a long shift, they are fighting natural human fatigue. When an AI looks at that same scan, it is processing pixels against a database of millions. On paper, the machine wins every time; it is faster, cheaper, and it never needs a coffee break. But as I’ve been researching for this blog, I’ve realized that "faster" doesn't always mean "fairer." If we aren't careful, we aren't just digitizing medicine—we're digitizing our own human prejudices.
+When my doctor looks at an X-ray after a long shift, they are fighting natural human fatigue. When an AI looks at that same scan, it is processing pixels against a database of millions. On paper, the machine wins every time; it is faster, cheaper, and it never needs a coffee break. However, if we aren't careful, we won't m just be digitizing medicine, we'll be digitizing our own human prejudices.
 
 ### The Speed of Light and Faster Diagnosis
 
