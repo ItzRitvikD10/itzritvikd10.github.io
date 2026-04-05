@@ -2,6 +2,8 @@
 Title: "The Digital Second Opinion: When AI Enters the Exam Room"
 Date: 2026-04-05
 Author: "Ritvik Diada"
+Tags: [Healthcare, Ethics]
+pullquote: "We won't just be digitizing medicine — we'll be digitizing our own human prejudices."
 ---
 
 When my doctor looks at an X-ray after a long shift, they are fighting natural human fatigue. When an AI looks at that same scan, it is processing pixels against a database of millions. On paper, the machine wins every time; it is faster, cheaper, and it never needs a coffee break. However, if we aren't careful, we won't m just be digitizing medicine, we'll be digitizing our own human prejudices.
